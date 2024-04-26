@@ -126,3 +126,27 @@ int login(const char *fileUserPath, const char *fileTokenPath,const char *userna
     fclose(file);
     return found ? 1 : 0;
 }
+
+bool fetch_username_from_token(char *username) {
+    FILE *file = fopen("database/token.txt", "r");
+    if (file == NULL) {
+        perror("Failed to open token file");
+        return false;
+    }
+
+    char line[MAX_LINE_LENGTH];
+    bool found = false;
+    while (fgets(line, MAX_LINE_LENGTH, file) != NULL) {
+        char *prefix = "username: ";
+        char *found_str = strstr(line, prefix);
+        if (found_str) {
+            // Assuming username follows immediately after "username: "
+            sscanf(found_str + strlen(prefix), "%s", username);
+            found = true;
+            break;
+        }
+    }
+
+    fclose(file);
+    return found;
+}
