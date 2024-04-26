@@ -1,0 +1,8 @@
+# ninja log v5
+12	102	7358333107434183	CMakeFiles/AuthenticationModule.dir/main.c.obj	fdb941e38f5fdbd8
+26	110	7358330704245792	CMakeFiles/AuthenticationModule.dir/src/utils/checkExistUser.c.obj	d1b6b1c7dafd49d5
+17	109	7358333107510290	CMakeFiles/AuthenticationModule.dir/src/authentication.c.obj	e0f8303a09128bfe
+2	267	7358333535398061	build.ninja	a399f25666bceda7
+23	127	7358333537251011	AuthenticationModule.exe	a7ffc449853a0c05
+12	95	7358333659861056	CMakeFiles/AuthenticationModule.dir/main.c.obj	fdb941e38f5fdbd8
+96	192	7358333660760686	AuthenticationModule.exe	a7ffc449853a0c05

@@ -1,0 +1,3 @@
+D:/Workspace/AuthenticationModule/cmake-build-debug/CMakeFiles/AuthenticationModule.dir
+D:/Workspace/AuthenticationModule/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Workspace/AuthenticationModule/cmake-build-debug/CMakeFiles/rebuild_cache.dir

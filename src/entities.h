@@ -1,0 +1,16 @@
+//
+// Created by hungt on 4/26/2024.
+//
+
+#ifndef AUTHENTICATIONMODULE_ENTITIES_H
+#define AUTHENTICATIONMODULE_ENTITIES_H
+
+#define MAX_USERNAME_LENGTH 100
+#define MAX_PASSWORD_LENGTH 100
+
+typedef struct {
+    char username[MAX_USERNAME_LENGTH];
+    char password[MAX_PASSWORD_LENGTH];
+} User;
+
+#endif //AUTHENTICATIONMODULE_ENTITIES_H
